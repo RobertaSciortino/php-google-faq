@@ -386,6 +386,7 @@ body {
 .container {
   width: 1000px;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
 h2 {
@@ -415,7 +416,10 @@ li {
 }
 
 header {
+  width: 100%;
   border-bottom: 1px solid #5f6368;
+  position: fixed;
+  background-color: #ffffff;
 }
 
 a {
