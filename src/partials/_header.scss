@@ -1,0 +1,50 @@
+header {
+  border-bottom: 1px solid $headerColor;
+}
+
+a {
+  cursor: pointer;
+}
+
+a, h2 {
+  color: $headerColor;
+}
+
+.header-top {
+  width: 100%;
+  height: $spacing * 5;
+  @include flexbox(row, space-between, center);
+  .logo {
+    padding-left: $spacing * 1.5;
+    @include flexbox(row, flex-start, flex-end);
+    img {
+      width: $spacing * 7;
+      height: 100%;
+      margin: $spacing / 2 $spacing / 2 0 $spacing / 2;
+    }
+    h2 {
+      margin-bottom: $spacing / 2;
+      font-weight: 400;
+      font-size: 22px;
+    }
+  }
+  .icons {
+    li {
+      font-size: $spacing * 2;
+      margin-right: $spacing;
+    }
+  }
+}
+
+.header-bottom {
+  height: $spacing * 5;
+  @include flexbox(row, flex-start, center);
+  ul {
+    margin-bottom: $spacing / 2;
+    padding-left: $spacing * 2;
+    li{
+      margin-right: $spacing * 3;
+      font-size: $spacing * 1.5;
+    }
+  }
+}

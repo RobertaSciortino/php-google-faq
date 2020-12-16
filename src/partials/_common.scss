@@ -23,6 +23,12 @@ a {
   text-decoration: none;
   color: $linksColor;
 }
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
 .post {
   margin-top: $spacing * 7;
 }

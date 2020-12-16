@@ -42,13 +42,72 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/app.css">
     <title>PHP Google faq</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="header-top">
+        <div class="logo">
+          <a href="#">
+            <img src="https://www.drcommodore.it/wp-content/uploads/2020/07/pngwing.com_.png" alt="">
+          </a>
+          <div>
+            <h2>
+              Privacy e termini
+            </h2>
+          </div>
+        </div>
+        <div class="icons">
+          <ul>
+            <li>
+              <a href="">
+                <i class="fas fa-ellipsis-v"></i>
+                <i class="fas fa-ellipsis-v"></i>
+                <i class="fas fa-ellipsis-v"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-user-circle"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <ul>
+          <li>
+            <a href="#">
+              Introduzione
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Norme sulla privacy
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Termini di servizio
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Tecnologie
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Domande frequenti
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
     <main>
       <div class="container">
