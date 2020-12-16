@@ -37,6 +37,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="dist/app.css">
     <title>PHP Google faq</title>
   </head>
   <body>
