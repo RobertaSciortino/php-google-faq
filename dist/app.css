@@ -384,7 +384,6 @@ body {
 }
 
 h2 {
-  color: #3c4043;
   font-weight: 500;
 }
 
@@ -397,7 +396,6 @@ p {
 
 a {
   text-decoration: none;
-  color: #3367d6;
 }
 
 li {
@@ -420,8 +418,8 @@ a {
   cursor: pointer;
 }
 
-a,
-h2 {
+header a,
+header h2 {
   color: #5f6368;
 }
 
@@ -481,6 +479,14 @@ h2 {
   width: 1000px;
   margin: 0 auto;
   padding-top: 100px;
+}
+
+main a {
+  color: #3367d6;
+}
+
+main h2 {
+  color: #3c4043;
 }
 
 footer {

@@ -3,3 +3,11 @@
   margin: 0 auto;
   padding-top: $spacing * 10;
 }
+
+main a {
+  color: $linksColor;
+}
+
+main h2 {
+  color: $questionColor;
+}
