@@ -379,8 +379,33 @@ template {
   display: none;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
+}
+
+h2 {
+  color: #3c4043;
+  font-weight: 500;
+}
+
+p {
+  color: #000000de;
+  font-size: 14px;
+  line-height: 1.8em;
+  margin: 30px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #3367d6;
+}
+
+.post {
+  margin-top: 70px;
 }
 

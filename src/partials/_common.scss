@@ -1,4 +1,28 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
-  width: $spacing * 120;
+  width: $spacing * 100;
   margin: 0 auto;
+}
+
+h2 {
+  color: $questionColor;
+  font-weight: 500;
+}
+
+p {
+  color: $answerColor;
+  font-size: 14px;
+  line-height: 1.8em;
+  margin: $spacing * 3 0;
+}
+
+a {
+  text-decoration: none;
+  color: $linksColor;
+}
+.post {
+  margin-top: $spacing * 7;
 }
