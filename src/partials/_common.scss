@@ -2,12 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.container {
-  width: $spacing * 100;
-  margin: 0 auto;
-  padding-top: $spacing * 10;
-}
-
 h2 {
   color: $questionColor;
   font-weight: 500;

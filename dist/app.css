@@ -383,12 +383,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
-  width: 1000px;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
 h2 {
   color: #3c4043;
   font-weight: 500;
@@ -417,7 +411,7 @@ li {
 
 header {
   width: 100%;
-  border-bottom: 1px solid #5f6368;
+  border-bottom: 1px solid #c4c4c4;
   position: fixed;
   background-color: #ffffff;
 }
@@ -481,5 +475,51 @@ h2 {
 .header-bottom ul li {
   margin-right: 30px;
   font-size: 15px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 1000px;
+}
+
+footer {
+  background-color: #F5F5F5;
+  height: 50px;
+}
+
+.footer-container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.privacy ul {
+  padding-left: 10px;
+}
+
+.privacy ul li {
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+.privacy ul li a {
+  color: #c4c4c4;
+}
+
+.language {
+  font-size: 14px;
+}
+
+.language i {
+  color: #3367d6;
+}
+
+.language select {
+  width: 180px;
+  border-radius: 3px;
 }
 

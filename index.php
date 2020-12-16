@@ -132,6 +132,42 @@
       </div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer-container">
+        <div class="privacy">
+          <ul>
+            <li>
+              <a href="#">
+                Google
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Tutto su Google
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Privacy
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Termini
+
+
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="language">
+          <i class="fas fa-comment-alt"></i>
+          <select>
+            <option value="">Italiano</option>
+            <option value="">English</option>
+          </select>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
