@@ -101,7 +101,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" class="active">
               Domande frequenti
             </a>
           </li>
